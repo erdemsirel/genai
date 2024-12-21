@@ -317,7 +317,32 @@ with col1:
 
 # This is the right column where we render the extracted features
 with col2:
-    st.subheader("Evaluation Results", divider=True)
+    st.subheader("Conversation Quality Assessment", divider=True)
+    st.subheader("Improvement Recommendation")
+    
+    if "evaluation_results" in st.session_state:
+        system_prompt = f"""You will be given a conversation between a customer and a customer service agent, and quality assesment results about the conversation below.
+            How can this agent improve? Please write some tips for the agent based on the conversation and quality assesment results provided.
+            Please keep it short and concise.
+
+            Conversation: {st.session_state["conversation"]}
+
+            Quality Assessment Results: {st.session_state["evaluation_results"].dict()["evaluation_results"]}
+            """
+        messages = [
+            {'role': 'system', 'content': system_prompt},
+        ]
+        response = CLIENT.chat.completions.create(
+        model=os.environ["GPT_4_MODEL_NAME"],
+        messages=messages,
+        temperature=0.0,
+    )
+        assistant_message = response.choices[0].message.content
+        st.write(assistant_message)
+    else:
+        st.write("No feedback yet")
+    
+    st.subheader("Assessment Results")
     if "evaluation_results" in st.session_state:
         evaluation_results = st.session_state["evaluation_results"].dict()["evaluation_results"]
         if evaluation_results is None:
@@ -362,14 +387,15 @@ if prompt:
     # Display assistant response in chat message container
     with st.chat_message("assistant"):
         message_placeholder = st.empty()
-        system_prompt = f"""You will be given a conversation between a customer and a customer service agent below.
-        Answer the question based on the conversation.
+        system_prompt = f"""You will be given a conversation between a customer and a customer service agent, and quality assesment results about the conversation below.
+        Answer the question based on the conversation and quality assessment results.
 
         Conversation: {st.session_state["conversation"]}
+
+        Quality Assessment Results: {st.session_state["evaluation_results"].dict()["evaluation_results"]}
         """
         messages = [
-            # Exercise: Add a system message that describes the assistant's task.
-            # Bonus: make the prompt configurable from the sidebar
+
             {'role': 'system', 'content': system_prompt},
         ]
         for m in st.session_state.messages:

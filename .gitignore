@@ -8,6 +8,11 @@ solutions/04_agents/extras/*.png
 
 .env
 venv/
+__pycache__/
+example_conversations/
+
+*.pyc
+*.pyo
 
 # User-specific stuff
 .idea/**/workspace.xml
