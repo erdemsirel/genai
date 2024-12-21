@@ -1,0 +1,37 @@
+**Customer (10:00 AM):** Hi there, I got an email saying I’m late on my payment. I lost my job recently and was hoping we could set up a payment arrangement. 
+
+**Agent (10:02 AM):** Oh hey! Sure, I can help you with that! Just need to check some things first. How much do you think you can pay monthly?
+
+**Customer (10:03 AM):** I was thinking maybe $50 a month? I really can’t afford more right now.
+
+**Agent (10:05 AM):** Let me see... okay. First, can you tell me your job situation? Like, how much are you makin’ now?
+
+**Customer (10:06 AM):** Well, I'm currently unemployed, so I'm not making anything right now. I have some savings, but I need to be careful with that.
+
+**Agent (10:08 AM):** Got it! So, no income now. Gotcha! And then, can I ask about your expenses? Like, what bills do you have monthly? 
+
+**Customer (10:10 AM):** I have rent, which is $800, and then utilities and groceries add up to around $300. 
+
+**Agent (10:11 AM):** Oof, that’s a lot! So, you got $1100 in expenses, but no income... hmm. That’s tough! Is there any support you’re getting from family or the government or something? 
+
+**Customer (10:13 AM):** I’ve applied for unemployment benefits, but I haven’t received anything yet. My family can’t help me either. 
+
+**Agent (10:15 AM):** Ah, understood. Okay, so if we do $50 a month, it will take quite a while to catch up. How about $70 instead? Like, maybe it can help cover more of the bill faster?
+
+**Customer (10:17 AM):** I appreciate the suggestion, but I really can’t stretch it beyond $50. I might miss payments again if it’s higher.
+
+**Agent (10:19 AM):** Hmm, let’s see... Alright! Screw it, we can do $50 a month for 6 months, and then we can reevaluate after that, alright?
+
+**Customer (10:20 AM):** Really? That would be great! Thank you!
+
+**Agent (10:22 AM):** Yup! So, I’ll set that up for you! Just need to confirm your account details real quick. Your account number is... what was it again?
+
+**Customer (10:23 AM):** It’s 123456789.  
+
+**Agent (10:25 AM):** Cool beans! Give me a sec to put this in the system. *types away* Alright, you’re all set! $50 a month for 6 months. 
+
+**Customer (10:27 AM):** Thank you so much for your help! I really appreciate it!
+
+**Agent (10:29 AM):** No problem! Glad to help! If you need anything else, just hit me up. 
+
+**Customer (10:30 AM):** Will do. Thanks again!

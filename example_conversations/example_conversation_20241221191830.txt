@@ -1,0 +1,39 @@
+**Customer (10:00 AM):** Hi, I’m contacting you about my mobile plan payments. I can’t make my payment this month because I lost my job recently.
+
+**Agent (10:02 AM):** Hey there! Thanks for reaching out! Sorry to hear about your job. Let’s see what we can do to help you out with your payments.
+
+**Customer (10:03 AM):** I appreciate that. I’d like to set up a payment arrangement but I need a lower monthly payment. 
+
+**Agent (10:05 AM):** No problem! Can you like tell me how much you’re thinking? 
+
+**Customer (10:06 AM):** I was thinking of around $30 instead of the usual $70. 
+
+**Agent (10:08 AM):** Um, okay. Before we do that, I need to check some stuff. Can you tell me about your monthly income and expenses?  
+
+**Customer (10:09 AM):** Well, I don't have any income right now since I lost my job. My expenses are rent which is $800 and utilities about $100. 
+
+**Agent (10:12 AM):** Got it! So, rent and utilities make it hard, I understand. Have you tried looking for another job? 
+
+**Customer (10:13 AM):** Yes, I've been applying, but it’s tough out there. I just need a break for now with the payments.
+
+**Agent (10:15 AM):** Totally! Let's see. I’ll need to check if $30 monthly would work. Give me a sec. 
+
+**Customer (10:16 AM):** Sure, take your time.
+
+**Agent (10:20 AM):** Alright, so $30 a month for two months then! After that, we can review your situation again? 
+
+**Customer (10:21 AM):** That sounds good to me! So, when will this new payment start? 
+
+**Agent (10:23 AM):** Umm, it’ll start next month! The usual due date, yeah? 
+
+**Customer (10:24 AM):** Yes, that works. Thank you so much for your help!
+
+**Agent (10:25 AM):** You’re welcome! I’m here to help! Just a moment, I need to put this in the system, okay?
+
+**Customer (10:26 AM):** Okay, no problem. 
+
+**Agent (10:30 AM):** All set! You’ll be charged $30 starting next month, and we’ll check in after two months. If you need anything else, just hit me up!
+
+**Customer (10:31 AM):** Thanks again! I really appreciate your understanding. Have a great day!
+
+**Agent (10:32 AM):** You too! Good luck with the job search! Bye! 

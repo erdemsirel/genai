@@ -1,0 +1,35 @@
+**Customer (10:00 AM):** Hi, I need to talk about my account. I'm late on my payment this month and I lost my job recently. Can we discuss a payment arrangement?
+
+**Agent (10:02 AM):** Hey there! Totally get it. Let’s see what we can do. Can you give me your name and account number first?
+
+**Customer (10:03 AM):** Sure, my name is John Smith, and my account number is 567890123.
+
+**Agent (10:05 AM):** Awesome, John! Thanks for that. So, about this payment, how much can you pay monthly? 
+
+**Customer (10:07 AM):** I was hoping to set it at $50 instead of the usual $100. Things are tight right now.
+
+**Agent (10:09 AM):** Okay, $50, got it. But first, I need to check a few things. Can you tell me what your monthly income is right now? Like, how much have you got coming in?
+
+**Customer (10:11 AM):** Well, since I lost my job, I’m currently getting $1,200 from unemployment benefits.
+
+**Agent (10:13 AM):** Alright, $1,200. Cool! Now, do you have any other expenses? Like rent, groceries, that sorta stuff?
+
+**Customer (10:15 AM):** Yeah, my rent is $800, and I usually spend about $150 on groceries, plus utility bills around $100. 
+
+**Agent (10:18 AM):** Okay, let me do some math here. So that’s around $1,050 in expenses. You will have like $150 left over after that. 
+
+**Customer (10:20 AM):** Right, but I have to save some for unexpected costs too. That’s why I was looking for a lower payment. 
+
+**Agent (10:22 AM):** Totally get that. Sooo… how about this? We set you at $50 a month, but just for two months, then we can review your situation again. Does that sound okay?
+
+**Customer (10:24 AM):** Yes, I think that could work. I’d really appreciate the help!
+
+**Agent (10:25 AM):** Super! So just to make it official, I’ll put in the arrangement for $50 a month for the next two months. We will contact you again in that time to see how you’re doing. 
+
+**Customer (10:27 AM):** Great! Thank you so much for understanding.
+
+**Agent (10:29 AM):** No prob, John! We’re here to help. Is there anything else you need from me?
+
+**Customer (10:30 AM):** Nope, that's everything! Thanks again!
+
+**Agent (10:31 AM):** Awesome! Have a good day! 😊

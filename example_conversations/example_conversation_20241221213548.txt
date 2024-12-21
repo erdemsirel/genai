@@ -1,0 +1,39 @@
+**Customer (09:15 AM):** Hi, I need to talk about my payment. I'm really late, and I lost my job recently. Can we set up a new payment plan?
+
+**Agent (09:16 AM):** Hey there! Sure, I can help you with that. But first, can I get your account number?
+
+**Customer (09:17 AM):** Yeah, it's 12345678. Can we make the monthly payments lower? Like, I can only manage $30 a month.
+
+**Agent (09:18 AM):** Oh, okay! Let me check your account. Just a sec... and...hmm, I think I need some info to figure out your stuff. Like, what's your income now?
+
+**Customer (09:20 AM):** Well, I’ve been looking but haven’t found anything yet. I’m currently not making any money.
+
+**Agent (09:21 AM):** Got it! So you’re zero income. And what about any expenses you got? Like rent or food?
+
+**Customer (09:23 AM):** My rent is $800, and I need about $200 for groceries. So that’s $1000 total, but I can't cover that right now.
+
+**Agent (09:24 AM):** Oh wow, that’s tough! So you can't really afford anything right now? I think $30 is quite low... but lemme see if we can work something out! 
+
+**Customer (09:25 AM):** I know it's low, but it’s all I can do. I want to keep my account active.
+
+**Agent (09:27 AM):** Alright! I totally understand. Lemme try to think of a plan. Uh, how about I put you on a plan of $30 for 4 months? After that, we can reassess how things are going? 
+
+**Customer (09:29 AM):** That sounds better! I hope things pick up for me by then.
+
+**Agent (09:30 AM):** Totally! I’ll set it up. Just to make sure, you know you'll still get late fees or whatever if you miss another payment, right?
+
+**Customer (09:31 AM):** Yeah, I know. I'm just trying to make it through this.
+
+**Agent (09:32 AM):** Cool, I’ll put that in! So, just to confirm, $30 a month for 4 months starts this month? 
+
+**Customer (09:33 AM):** Yes, please!
+
+**Agent (09:34 AM):** Awesome! Done! You should get a confirmation email shortly. Is there anything else you need?
+
+**Customer (09:35 AM):** No, that’s it. Thank you for being understanding!
+
+**Agent (09:36 AM):** No problem! Glad I could help. Hang in there, and good luck with the job hunting! 
+
+**Customer (09:37 AM):** Thanks, I really appreciate it!
+
+**Agent (09:38 AM):** Anytime! Have a great day!

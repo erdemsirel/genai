@@ -1,0 +1,41 @@
+**Customer (10:15 AM):** Hi there, I’m really behind on my bill and I just lost my job. I want to set up a payment plan, but I need it to be lower than what I usually pay. 
+
+**Agent (10:16 AM):** Hey! I’m sorry to hear about your job. Let’s see what we can do to help you out! Can you tell me what your current monthly payment is?
+
+**Customer (10:18 AM):** My monthly payment is $75, but I can’t pay that right now. 
+
+**Agent (10:19 AM):** Got it! So we need to get you something lower. How much do you think you can afford to pay each month? 
+
+**Customer (10:20 AM):** I can maybe do $35, but I’m not sure if that’s enough. 
+
+**Agent (10:22 AM):** Hmm, okay, that’s quite a bit lower. Before we go forward, can you let me know how much money you have coming in monthly right now? Like from savings or some other source?
+
+**Customer (10:23 AM):** I have no income right now. Just a bit in savings but it won’t last long. 
+
+**Agent (10:25 AM):** Ooooh I see. And what about expenses? Do you have bills or things to pay?
+
+**Customer (10:26 AM):** Yes, I have rent, utilities, and groceries, which total around $600 a month. 
+
+**Agent (10:28 AM):** Wow, that’s a lot! So $600 minus $35 means you got like… oh wait, I'm bad at math. You definitely need the rest for rent and stuff! 
+
+**Customer (10:30 AM):** Exactly. That’s why I was hoping for a lower rate. 
+
+**Agent (10:32 AM):** Alright, let’s do this. I might have to get my supervisor to okay the $35. It sounds doable. Can I put you on hold for a moment to get that approval?
+
+**Customer (10:33 AM):** Sure, I can hold.
+
+**Agent (10:35 AM):** Thanks! One second… *after a moment* Okay, I got the green light! We can do $35 a month for the next 4 months as a temporary plan. After that, we might need to re-evaluate. 
+
+**Customer (10:37 AM):** That sounds reasonable. Thank you! 
+
+**Agent (10:38 AM):** No prob! Just one last thing, I need to get your agreement on this arrangement. Can I have your full name and the last four digits of your account number to wrap this up?
+
+**Customer (10:39 AM):** Sure! It’s John Smith and my account number ends with 1234.
+
+**Agent (10:40 AM):** Awesome! You're all set, John. Your new payment is $35. Let’s hope you find a new job soon! 
+
+**Customer (10:41 AM):** Thanks! I really appreciate your help today.
+
+**Agent (10:42 AM):** Anytime! If you need anything else, just holler! Bye! 
+
+**Customer (10:42 AM):** Bye!

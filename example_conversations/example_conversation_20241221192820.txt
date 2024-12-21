@@ -1,0 +1,31 @@
+**Customer (10:15 AM):** Hi, I got your last notice about my payment being late. I lost my job recently and I'm hoping we can work something out for my bill. 
+
+**Agent (10:16 AM):** Hey there! I totally get that jobs can be tough. Let’s see what we can do about it. What’s your current situation? 
+
+**Customer (10:17 AM):** Well, I just got laid off last month, and I'm trying to manage my expenses. I can’t afford my usual payment of $80 a month right now.
+
+**Agent (10:18 AM):** Oh man, that’s rough! But no worries, let’s try to solve this. How much can you pay, like, a smaller price? 
+
+**Customer (10:19 AM):** I’m hoping to lower it to about $40 a month, at least until I find a new job. 
+
+**Agent (10:20 AM):** Cool, cool, I need to check a bit on that. Can you tell me your current income and any other bills you have? 
+
+**Customer (10:21 AM):** Right now, I’m not working, so my income is zero. My only expenses are rent and groceries, which is about $1,200 a month combined.
+
+**Agent (10:22 AM):** Wow, that’s tight. So no cash flow at all? Are you getting any help from family or friends? 
+
+**Customer (10:23 AM):** Not really, just trying to manage with what I have. I used to have a part-time job that covered this stuff, but now things are a bit tight.
+
+**Agent (10:24 AM):** Gotcha! I understand. Let me see… One sec! *checks system* Okay! How about we do $40 for the next three months? Does that sound good? 
+
+**Customer (10:25 AM):** That would be perfect! Thank you! But can we make sure it’s just for three months? 
+
+**Agent (10:26 AM):** Absolutely! After the three months, we can see what’s up and figure it out from there. Just to confirm, this is all set for $40 a month starting this month, right?
+
+**Customer (10:27 AM):** Yes, that sounds good. Thank you so much for your help!
+
+**Agent (10:28 AM):** You’re super welcome! You’re all good to go! If you need anything else or have questions, just holler! 😃
+
+**Customer (10:29 AM):** Will do! Thanks again!
+
+**Agent (10:30 AM):** No problem! Have a great day!

@@ -1,9 +1,10 @@
 import json
 import os
+import pandas as pd
 from typing import Any
 import datetime
 import pydantic
-
+import yaml
 import streamlit as st
 from llm_in_production.openai_utils import get_openai_client
 from llm_in_production.text_extraction import (
@@ -11,71 +12,30 @@ from llm_in_production.text_extraction import (
     DigitFeature,
     StringFeature,
 )
+from pathlib import Path
 
-HOUSE_TYPES = ["Apartment", "House", "Studio"]
 CLIENT = get_openai_client()
 
+def load_rules(file_name):
+    with open(Path("evaluation_rules") / Path(file_name), "rt") as f:
+        evaluation_rules = yaml.safe_load(f)
+        st.session_state["evaluation_rules"] = evaluation_rules
 
-evaluation_rules = [
 
-  {
-    "rule_name": "Clarity of Communication",
-    "rule_description": "The agent provides clear and concise responses, avoiding jargon and ambiguity.",
-    "level": "High"
-  },
-  {
-    "rule_name": "Empathy and Politeness",
-    "rule_description": "The agent demonstrates understanding of the customer's emotions and responds in a polite and professional manner.",
-    "level": "High"
-  },
-  {
-    "rule_name": "Response Time",
-    "rule_description": "The agent responds to the customer promptly, minimizing delays during the conversation.",
-    "level": "Medium"
-  },
-  {
-    "rule_name": "Issue Resolution",
-    "rule_description": "The agent effectively addresses and resolves the customer's issue or provides clear next steps.",
-    "level": "High"
-  },
-  {
-    "rule_name": "Proactive Assistance",
-    "rule_description": "The agent anticipates the customer's needs and offers additional support or solutions without being asked.",
-    "level": "Medium"
-  },
-  {
-    "rule_name": "Knowledge Accuracy",
-    "rule_description": "The agent provides accurate and relevant information in response to the customer's queries.",
-    "level": "High"
-  },
-  {
-    "rule_name": "Professional Tone",
-    "rule_description": "The agent maintains a respectful, positive, and professional tone throughout the interaction.",
-    "level": "High"
-  },
-  {
-    "rule_name": "Engagement",
-    "rule_description": "The agent actively engages with the customer by acknowledging their concerns and confirming their satisfaction.",
-    "level": "Medium"
-  },
-  {
-    "rule_name": "Grammar and Spelling",
-    "rule_description": "The agent's messages are free from grammatical errors",
-    "level": "Medium"
-  }
-]
+if "rule_file_name" not in st.session_state or st.session_state["rule_file_name"] is None:
+    st.session_state["rule_file_name"] = "evaluation_rules_en.yaml"
 
+if "evaluation_rules" not in st.session_state or st.session_state["evaluation_rules"] is None:
+    load_rules(st.session_state["rule_file_name"])
+
+if "conversation" not in st.session_state:
+    st.session_state["conversation"] = ""
 
 ####################
 # Logic for the UI #
 ####################
 
-try:
-    with open(f"example_conversation_20241214175326.txt", "+rt") as f:
-        messages = "\n".join(f.readlines())
-    st.session_state["conversation"] = messages
-except:
-    pass
+
 
 def generate_example_chat_conversation(new_conversation=False) -> str:
     """
@@ -103,7 +63,7 @@ Write customer messages after **Customer (timestamp):** and agent messages after
     )
 
     message = response.choices[0].message.content
-    with open(f"example_conversation_{datetime.datetime.now().strftime('%Y%m%d%H%M%S')}.txt", "+wt") as f:
+    with open(f"example_conversations/example_conversation_{datetime.datetime.now().strftime('%Y%m%d%H%M%S')}.txt", "+wt") as f:
         f.write(message)
         
 
@@ -133,7 +93,7 @@ def on_click_evaluate_conversation():
     """
 
 
-    evaluation_results = evaluate_conversation(conversation=st.session_state["conversation"], rules=evaluation_rules)
+    evaluation_results = evaluate_conversation(conversation=st.session_state["conversation"], rules=st.session_state["evaluation_rules"])
     st.session_state["evaluation_results"] = evaluation_results
 
 
@@ -147,37 +107,36 @@ st.set_page_config(
     page_title=title,
     page_icon="👋",
     layout="wide",
+
 )
-st.title(title)
+st.title(title)        
 
 
 # This is the sidebar where we collect the user input
 with st.sidebar:
+    
+    st.page_link('app.py', label='Conversation Evaluator')
+    st.page_link('pages/1_Quality_Rule_Settings.py', label='Quality Rule Settings')
     st.title("Settings")
-
     # Pressing this button will trigger the on_click_generate function defined above
     # This will generate a description and extract the features
-    submit = st.button("New conversation example", on_click=lambda: on_click_generate_conversation())
+
+    evaluation_rule_files = [file.name for file in Path("evaluation_rules/").iterdir() if file.name.endswith(".yaml")]
+    selected_rules_to_load = st.selectbox(label="Select the rule set to load", 
+                                options=evaluation_rule_files, 
+                                index=evaluation_rule_files.index(st.session_state["rule_file_name"]),
+                                )
+    load_rules_button = st.button('Load Rules')
+    if load_rules_button:
+        load_rules(selected_rules_to_load)
+    
+    
     options = st.multiselect(
     "Select the rules that you want to evaluate",
-    options=[rule["rule_name"] for rule in evaluation_rules],
-    default=[rule["rule_name"] for rule in evaluation_rules],
-)
+    options=[rule["rule_name"] for rule in st.session_state["evaluation_rules"]],
+    default=[rule["rule_name"] for rule in st.session_state["evaluation_rules"]],
+    )
     submit = st.button("Evaluate conversation", on_click=lambda: on_click_evaluate_conversation())
-
-
-
-# Here we create two columns to render the description and the extracted features side by side
-col1, col2 = st.columns(2)
-
-
-# This is the left column where we render the generated description
-with col1:
-    is_there_a_description = "conversation" in st.session_state
-    if is_there_a_description:
-        st.write(st.session_state["conversation"])
-    else:
-        st.write("No conversation yet")
 
 
 def render_rule_evaluation(
@@ -188,14 +147,19 @@ def render_rule_evaluation(
     thoughts: str| None, 
 ):
 
-    st.write(f"### {rule_name} {level}")
-    st.write(rule_description)
+
     if evaluation_result == "successful":
+        st.write(f"### {rule_name}")
+        st.write(rule_description)
         st.write(f"✅ Passed: {thoughts}")
     elif rule_description == "not_successful":
-        st.write(f"❌ Incorrect: {thoughts}")
+        st.write(f"### {rule_name}")
+        st.write(rule_description)
+        st.write(f"❌ Failed (Rule Severity: {level}): {thoughts}")
     else:
-        st.write(f"❓ Unknown: {thoughts}")
+        st.write(f"### {rule_name}")
+        st.write(rule_description)
+        st.write(f"❌ Failed (Rule Severity: {level}): {thoughts}")
     st.write()
 
 
@@ -222,6 +186,34 @@ class EvaluationDataFormatList(pydantic.BaseModel):
     evaluation_results: list[EvaluationDataFormat]  = pydantic.Field(
         description=f"List of evaluation results for each rule"
     )
+
+def question_about_conversation(question:str, conversation:str):
+    """
+    Generate a text description of a house based on the data provided by the user.
+    :param data: A dictionary where the keys are the feature names and the values are the feature values
+    :return: A text description of the house
+    """
+    system_prompt = f"""You will be given a conversation between a customer and a customer service agent and a set of quality rules.
+    Answer the question based on the conversation.
+    """
+    # YOUR CODE HERE END
+    messages = [
+        # YOUR CODE HERE START: Add the system prompt if needed
+        {"role": "system", "content": system_prompt},
+        # YOUR CODE HERE END
+        {"role": "user", 
+         "content": f"Question: {question}"
+         },
+    ]
+
+    response = CLIENT.chat.completions.create(
+        model=os.environ["GPT_4_MODEL_NAME"],
+        response_format={"type": "json_object"},
+        messages=messages,
+        temperature=0.0,
+    )
+
+    return response.choices[0].message.content
 
 
 def evaluate_conversation(conversation:str, rules:dict):
@@ -283,17 +275,57 @@ Conversation:
     return evaluation_results
 
 
+# Here we create two columns to render the description and the extracted features side by side
+col1, col2 = st.columns(2)
+
+
+# This is the left column where we render the generated description
+with col1:
+        st.subheader("Conversation", divider=True)
+        sub_col1, sub_col2, sub_col3 = st.columns(3)
+        with sub_col1:
+            submit = st.button("Generate", on_click=lambda: on_click_generate_conversation())
+        
+        with sub_col2:
+            save_button = st.button("Save")
+        
+        with sub_col3:
+            edit_button = st.button("Edit")
+            
+        
+        if "conversation" not in st.session_state or st.session_state["conversation"] == "" or edit_button:
+            conversation_input = st.text_area(label="Conversation", 
+                                                value=st.session_state["conversation"],
+                                                height=500, 
+                                                placeholder="""You can copy paste a conversation in the following format.
+    Customer (10:00 AM): ...
+    Agent (10:02 AM): ..."""
+                        )
+            st.session_state["conversation"] = conversation_input
+
+        else:
+            st.write(st.session_state["conversation"])
+
+        if save_button:
+            st.session_state["conversation"] = conversation_input
+            st.rerun()
+        
+
+
+
+
+
 # This is the right column where we render the extracted features
 with col2:
+    st.subheader("Evaluation Results", divider=True)
     if "evaluation_results" in st.session_state:
         evaluation_results = st.session_state["evaluation_results"].dict()["evaluation_results"]
         if evaluation_results is None:
             st.write("Features could not be extracted.")
         else:
             if type(evaluation_results) is list and type(evaluation_results[0]) is dict:
-                print("test 1")
+                evaluation_results = pd.DataFrame(evaluation_results).sort_values("evaluation_result").to_dict('records')
                 for rule_result in evaluation_results:
-                     print("test 2", rule_result)
                      render_rule_evaluation(
                         rule_name=rule_result.get("rule_name", ""), 
                         rule_description=rule_result.get("rule_description", ""), 
@@ -306,3 +338,53 @@ with col2:
 
     else:
         st.write("No evaluation results yet")
+
+st.subheader("Extra Questions", divider=True)
+
+# Initialize chat history
+if "messages" not in st.session_state:
+    st.session_state.messages = []
+
+# Display chat messages from history on app rerun
+for message in st.session_state.messages:
+    with st.chat_message(message["role"]):
+        st.markdown(message["content"])
+
+# Accept user input
+prompt = st.chat_input("Your question about the conversation?")
+
+if prompt:
+    st.session_state.messages.append({"role": "user", "content": prompt})
+
+    with st.chat_message("user"):
+        st.markdown(prompt)
+
+    # Display assistant response in chat message container
+    with st.chat_message("assistant"):
+        message_placeholder = st.empty()
+        system_prompt = f"""You will be given a conversation between a customer and a customer service agent below.
+        Answer the question based on the conversation.
+
+        Conversation: {st.session_state["conversation"]}
+        """
+        messages = [
+            # Exercise: Add a system message that describes the assistant's task.
+            # Bonus: make the prompt configurable from the sidebar
+            {'role': 'system', 'content': system_prompt},
+        ]
+        for m in st.session_state.messages:
+            messages.append({"role": m["role"], "content": m["content"]})
+        response = CLIENT.chat.completions.create(
+        model=os.environ["GPT_4_MODEL_NAME"],
+        messages=messages,
+        temperature=0.0,
+    )
+        assistant_message = response.choices[0].message.content
+        message_placeholder.markdown(assistant_message)
+
+    st.session_state.messages.append(
+        {"role": "assistant", "content": assistant_message}
+    )
+
+
+    

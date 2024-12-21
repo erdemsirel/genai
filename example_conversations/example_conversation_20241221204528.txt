@@ -1,0 +1,33 @@
+**Customer (10:00 AM):** Hi, I'm reaching out because I missed my payment this month. I lost my job recently and can’t afford the full amount right now. 
+
+**Agent (10:02 AM):** Hey there! Thanks for contacting us. I totally get that losing a job is tough. Can you please tell me how much you can pay? 
+
+**Customer (10:03 AM):** Well, I was hoping to set up a payment arrangement where I pay $50 each month instead of the usual $100. Is that possible?
+
+**Agent (10:05 AM):** Hmmm, let me check if that's ok! Can I ask a few questions? Like, what’s your monthly income now? 
+
+**Customer (10:07 AM):** Right now, I don’t have any income since I just got laid off. I’m looking for a new job but it’s tough. 
+
+**Agent (10:08 AM):** Oh man, that sucks 😔. I’m really sorry to hear that. Do you have any other money coming in? Like savings or help from friends/family?
+
+**Customer (10:10 AM):** I have some savings but I don’t want to dip into that too much. I'm just trying to manage my monthly expenses for now.
+
+**Agent (10:12 AM):** Gotcha! And what are your regular monthly expenses? Like rent, food, stuff like that?
+
+**Customer (10:13 AM):** My rent is $800 and food is around $200. I have other bills, like utilities, which add up to about $100. 
+
+**Agent (10:15 AM):** So that’s about $1,100 total. Wow, that sounds tight! 🤔 Okay, let me see what I can do. 
+
+**Customer (10:17 AM):** I really appreciate it! I just need a bit of help right now.
+
+**Agent (10:18 AM):** No worries! Since you’re facing some difficulties, I can offer you a temporary reduced rate. We can do the $50/month but only for 3 months. After that, you’ll need to pay the regular amount again. Is that cool?
+
+**Customer (10:20 AM):** Yes! That sounds good to me. Thank you so much! 
+
+**Agent (10:22 AM):** Awesome! Let me just get that set up and I’ll send you a confirmation email. Anything else I can help you with?
+
+**Customer (10:23 AM):** No, that’s all for now! Thanks again for your help.
+
+**Agent (10:25 AM):** You’re welcome! 😊 Good luck with the job search! Remember, we’re here if you need anything else. Have a great day! 
+
+**Customer (10:26 AM):** You too! Bye!

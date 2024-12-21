@@ -1,0 +1,39 @@
+**Customer (10:00 AM):** Hi, I've missed my payment this month because I lost my job recently. I’d like to set up a payment arrangement if possible.
+
+**Agent (10:01 AM):** Hey there! No worries, let’s figure this out together! Can you give me your account number so I can check the details?
+
+**Customer (10:02 AM):** Sure, it’s 123456789.
+
+**Agent (10:03 AM):** Got it! Just a sec while I pull up your account. Uhm, so tell me what’s your monthly payment normally?
+
+**Customer (10:04 AM):** It’s usually $60 a month. 
+
+**Agent (10:05 AM):** Okay! So you wanna arrange a lower payment? How much you thinking? 
+
+**Customer (10:06 AM):** I was hoping for something like $30 a month since I don’t have any income right now. 
+
+**Agent (10:07 AM):** Sounds fair! But I need to check your income and expenses real quick to make sure that’s okay. What was your last job and how much did you earn monthly?
+
+**Customer (10:08 AM):** I worked as a sales associate, and I was making about $2,500 a month before I got laid off.
+
+**Agent (10:09 AM):** Ooh, that must be tough. So, um, what are your monthly expenses? Like rent, food, etc.?
+
+**Customer (10:10 AM):** My rent is $1,200, food comes to about $300, and I have some minor bills that come to around $150.
+
+**Agent (10:11 AM):** Wow, I see! So if we do the $30 payment, that would be like, um, really low compared to your costs. Are you sure you can manage it?
+
+**Customer (10:12 AM):** Yes, I really need to lower it. I barely have anything left for groceries after I pay my rent and bills.
+
+**Agent (10:13 AM):** Okay! Let me check this out with my supervisor. Just a sec! 
+
+**Customer (10:14 AM):** Sure, thank you!
+
+**Agent (10:15 AM):** I’m back! So my supervisor said we can set the payment to $30/month for now, but we’ll need to review it in three months. How does that sound? 
+
+**Customer (10:16 AM):** That sounds perfect! Thank you for helping me with this.
+
+**Agent (10:17 AM):** No problem! Just to confirm, your payment will be set to $30 starting next month, and we’ll check back in. Anything else I can help with?
+
+**Customer (10:18 AM):** Nope, that’s everything. Thanks again!
+
+**Agent (10:19 AM):** Awesome! You're welcome! Have a good day! 😊

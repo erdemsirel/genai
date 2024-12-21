@@ -1,0 +1,4 @@
+- level: High
+  rule_description: The agent provides clear and concise responses, avoiding jargon
+    and ambiguity.
+  rule_name: Clarity of Communication

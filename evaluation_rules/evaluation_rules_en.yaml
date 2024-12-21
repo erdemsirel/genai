@@ -1,0 +1,35 @@
+- rule_name: Clarity of Communication
+  rule_description: The agent provides clear and concise responses, avoiding jargon
+    and ambiguity.
+  level: High
+- rule_name: Empathy and Politeness
+  rule_description: The agent demonstrates understanding of the customer's emotions
+    and responds in a polite and professional manner.
+  level: High
+- rule_name: Response Time
+  rule_description: The agent responds to the customer promptly, minimizing delays
+    during the conversation.
+  level: Medium
+- rule_name: Issue Resolution
+  rule_description: The agent effectively addresses and resolves the customer's issue
+    or provides clear next steps.
+  level: High
+- rule_name: Proactive Assistance
+  rule_description: The agent anticipates the customer's needs and offers additional
+    support or solutions without being asked.
+  level: Medium
+- rule_name: Knowledge Accuracy
+  rule_description: The agent provides accurate and relevant information in response
+    to the customer's queries.
+  level: High
+- rule_name: Professional Tone
+  rule_description: The agent maintains a respectful, positive, and professional tone
+    throughout the interaction.
+  level: High
+- rule_name: Engagement
+  rule_description: The agent actively engages with the customer by acknowledging
+    their concerns and confirming their satisfaction.
+  level: Medium
+- rule_name: Grammar and Spelling
+  rule_description: The agent's messages are free from grammatical errors
+  level: Medium

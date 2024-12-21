@@ -1,0 +1,41 @@
+**Customer (10:15 AM):** Hi there, I need to set up a payment arrangement. I'm a bit behind on my bill and I'm in a tight spot.
+
+**Agent (10:16 AM):** Hello! Thanks for reaching out! Sorry to hear that. No worries, we can help you with that! Can I have your account number or phone number to pull up your info? 
+
+**Customer (10:17 AM):** Sure, it's 555-123-4567. 
+
+**Agent (10:18 AM):** Awesome, let me check that for ya! One second, please... (pauses) Okay, I see here you owe $150. Is that right?
+
+**Customer (10:19 AM):** Yes, that's correct. 
+
+**Agent (10:20 AM):** Cool! So, can you tell me, like, why you fell behind this month? 
+
+**Customer (10:21 AM):** I lost my job recently, and things have been tough. I’d like to set up a payment plan and, honestly, a lower monthly payment because I need to watch my budget closely.
+
+**Agent (10:22 AM):** Oh man, that sucks! I'm sorry to hear. So, how much were you thinkin’ for the monthly payments? 
+
+**Customer (10:23 AM):** I was hoping for something like $50 a month.
+
+**Agent (10:24 AM):** Let me do a quick check on that! So, can I ask how much you're makin' now? Like, do you have any other income?  
+
+**Customer (10:25 AM):** Well, I'm currently unemployed. I have a small part-time gig that pays about $200 a month, but it’s not stable. 
+
+**Agent (10:26 AM):** Oh right. And, do you have, like, any expenses you need to keep in mind? 
+
+**Customer (10:27 AM):** Yeah, I’ve got rent of about $700, utilities around $150, and some groceries. 
+
+**Agent (10:28 AM):** Whoa, that sounds like a lot. The $50 you’re proposing is kinda low. How about we do $75 instead? 
+
+**Customer (10:29 AM):** I understand it’s low, but I’m worried about making ends meet if I pay that much. Could we possibly meet in the middle, maybe $60 a month instead?
+
+**Agent (10:30 AM):** Hmmm, let me see if that works! (pauses) Okay, I can do $60 a month! But you gotta promise to keep to it, okay? 
+
+**Customer (10:31 AM):** Yes, I promise I will stick to it. Thank you!
+
+**Agent (10:32 AM):** No problem! Just to confirm, you’ll be paying $60 per month for the next three months, starting next week. Sound good?
+
+**Customer (10:33 AM):** Yes, that sounds perfect! Thank you for your help!
+
+**Agent (10:34 AM):** You got it! Hang in there, and if you need anything else, just hit me up! Have a great day! 
+
+**Customer (10:35 AM):** I will. Thanks again!

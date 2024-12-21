@@ -7,3 +7,4 @@ langchainhub
 langchain-experimental
 langchain-openai
 tokenizers
+pandas

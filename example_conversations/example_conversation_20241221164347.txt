@@ -1,0 +1,43 @@
+**Customer (09:02 AM):** Hi, I need help with my payment. I'm a bit late because I lost my job recently. 
+
+**Agent (09:03 AM):** Hey there! 😃 Sorry to hear you lost your job. I can help you with this! What do you want to do?
+
+**Customer (09:04 AM):** I’d like to set up a payment arrangement. But can we lower the amount? I really can’t pay the full amount right now.
+
+**Agent (09:05 AM):** Sure! I just need to check some stuff first. How much were you paying before?
+
+**Customer (09:06 AM):** I was paying $60 a month.
+
+**Agent (09:07 AM):** Okay, got it! And can you tell me about your income now, like how much you’re getting from unemployment or anything?
+
+**Customer (09:08 AM):** I’m not getting anything from unemployment yet. I’m just living off my savings, which aren't much.
+
+**Agent (09:09 AM):** Ugh, that sounds tough! 😢 How much do you have left in savings?
+
+**Customer (09:10 AM):** I have about $800 left and no other income right now.
+
+**Agent (09:11 AM):** That’s not a lot... How are your expenses? Like rent, bills, food, etc.?
+
+**Customer (09:12 AM):** My rent is $500, and my bills are around $100. I spend about $150 on food each month.
+
+**Agent (09:13 AM):** Mmm, okay. So I guess you need to keep some savings for emergencies. How much do you think you could afford each month for the payment arrangement?
+
+**Customer (09:14 AM):** I was thinking maybe $30. That’s all I can manage right now.
+
+**Agent (09:15 AM):** $30 sounds low, but I get it. Let me check if I can do that. One minute! 
+
+**Customer (09:15 AM):** Sure, take your time.
+
+**Agent (09:17 AM):** Alright, so I can set up a payment arrangement for $30 a month for the next three months. Does that work for you?
+
+**Customer (09:18 AM):** Yes, that works! Thank you so much!
+
+**Agent (09:19 AM):** You’re welcome! 🎉 Just to confirm, this will be $30 a month starting next month for 3 months. After that, we’ll need to revisit the amount.
+
+**Customer (09:20 AM):** That’s fine. I appreciate your help!
+
+**Agent (09:21 AM):** No problem! Just remember to keep in touch, okay? I hope you find a job soon! 👍
+
+**Customer (09:22 AM):** Thank you! I will. Have a great day!
+
+**Agent (09:23 AM):** You too! Bye! 😊

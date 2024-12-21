@@ -1,0 +1,39 @@
+**Customer (10:05 AM):** Hi, I’m reaching out about my mobile bill. I’ve fallen behind in payments because I lost my job recently. I’d like to set up a payment plan if possible.
+
+**Agent (10:06 AM):** Hey there! Thanks for contacting us! 😄 I totally understand your situation. Let’s see what we can do. What payment plan are you thinking about?
+
+**Customer (10:07 AM):** I was hoping for a lower monthly payment, maybe around $30 instead of the regular $50 I usually pay. 
+
+**Agent (10:09 AM):** Sure, I can look into that for you! Just gotta ask you a few questions to see if we can make it work. Is that cool?
+
+**Customer (10:10 AM):** Yeah, that’s fine.
+
+**Agent (10:11 AM):** Awesome! So can you tell me what your total income is now since you lost your job? Like, are you getting any unemployment benefits or anything?
+
+**Customer (10:12 AM):** I’m getting $300 a week from unemployment benefits. My only expenses are rent and utilities, which total around $800 a month.
+
+**Agent (10:14 AM):** Okay, so your total monthly income is about $1,200, right? Just confirming.
+
+**Customer (10:15 AM):** Yes, that’s correct.
+
+**Agent (10:16 AM):** Alright! And you've got $800 in expenses. So, you have $400 left over. Hmm, I can see how $30 a month could work, but I’ll need to get it approved. 
+
+**Customer (10:18 AM):** I really hope you can approve that. I just need some help for now. 
+
+**Agent (10:20 AM):** Totally get it! Let me just check if I can get my supervisor's okay for that lower amount. Please hold on for a sec!
+
+**Customer (10:21 AM):** Sure, take your time.
+
+**Agent (10:25 AM):** Thanks for waiting! 🎉 So, my supervisor said we can do a payment plan of $30 a month for the next three months, and then we’ll review it again afterward. How does that sound?
+
+**Customer (10:27 AM):** That sounds great! Thank you so much for helping me out with this.
+
+**Agent (10:28 AM):** You’re welcome! Just to wrap this up, I need to confirm a few more details. Can you let me know your account number? 
+
+**Customer (10:29 AM):** My account number is 123456789.
+
+**Agent (10:30 AM):** Great! Alright, I’ll set this up for you. You’ll get a confirmation email soon. If you need anything else, just hit us up! 
+
+**Customer (10:31 AM):** Thank you again! I really appreciate it.
+
+**Agent (10:32 AM):** No prob! Have a chill day! 😎

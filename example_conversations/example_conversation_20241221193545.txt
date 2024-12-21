@@ -1,0 +1,33 @@
+**Customer (10:00 AM):** Hi, I need to talk about my bill. I’ve been late on my payment because I lost my job recently. 
+
+**Agent (10:02 AM):** Hey there! I’m sorry to hear about your job. No worries, I'm here to help you with that. Can you tell me how much your bill is right now?
+
+**Customer (10:03 AM):** My bill is $80, but I can’t afford that right now. 
+
+**Agent (10:04 AM):** Gotcha! That’s kinda high if you’re not working. So like, how much do you think you can pay each month?
+
+**Customer (10:05 AM):** Honestly, I can only do $40 a month for now. Is there any way we can arrange that?
+
+**Agent (10:06 AM):** Hmm, okay! Let me just check a few things. Can I ask how long you’ve been unemployed and if you’re receiving any benefits?
+
+**Customer (10:07 AM):** I lost my job about a month ago and I don’t qualify for any benefits right now. Just trying to get by.
+
+**Agent (10:08 AM):** Totally get that. So, do you have any other income sources? Maybe from a side gig or something?
+
+**Customer (10:09 AM):** No, I don't have anything else coming in at the moment. Just trying to save money wherever I can. 
+
+**Agent (10:10 AM):** Alrighty then! Just a sec… Okay, I think I can set up a payment arrangement for you. How about I put you on $40 a month for the next couple of months? 
+
+**Customer (10:11 AM):** That sounds good! Will that stop the late fee?
+
+**Agent (10:12 AM):** Uhm, let me see… so if we do this arrangement, it should help with that for now. Just make sure to pay on time, okay? 
+
+**Customer (10:13 AM):** Yeah, of course! I’ll do my best. How do I confirm this payment plan?
+
+**Agent (10:14 AM):** I’ll just send you a confirmation through email after we finish talking. You’ll need to keep an eye on it, okay?
+
+**Customer (10:15 AM):** Sure, I can do that. Thanks for helping out! I really appreciate it. 
+
+**Agent (10:16 AM):** No problem! Glad I could help. If you need anything else, just hit me up. Talk later!
+
+**Customer (10:17 AM):** Will do, thanks again!

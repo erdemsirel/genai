@@ -1,0 +1,47 @@
+**Customer (09:15 AM):** Hi, I need help with my payment. I missed the last one and I lost my job recently. 
+
+**Agent (09:16 AM):** Hey there! No biggie, we can work this out. What's your name? 
+
+**Customer (09:16 AM):** My name is John Miller. 
+
+**Agent (09:17 AM):** Ayy, nice to meet ya, John! So, let's see. You missed a payment of $75, is that right? 
+
+**Customer (09:18 AM):** Yes, that's correct. I was wondering if we could set up a payment arrangement. But I need the monthly payment to be lower because I'm struggling now. 
+
+**Agent (09:19 AM):** Gotcha! How much are you thinking for the monthly payment? 
+
+**Customer (09:20 AM):** Maybe around $40? 
+
+**Agent (09:21 AM):** Hmm, let me see. I gotta ask a few questions to figure this out. What’s your monthly income now? 
+
+**Customer (09:22 AM):** I don’t have any income right now, since I lost my job. 
+
+**Agent (09:23 AM):** Oof, that’s rough, man. But do you have any other sources of income like savings or unemployment benefits? 
+
+**Customer (09:24 AM):** Just unemployment benefits, which is about $300 a week. 
+
+**Agent (09:25 AM):** Cool, cool. So that’s like $1,200 a month, right? What about your expenses? 
+
+**Customer (09:26 AM):** Yeah, that’s right. My expenses are around $800 for rent and bills. 
+
+**Agent (09:27 AM):** Okay, so that leaves you with about $400 a month. I think we can work something out! 
+
+**Customer (09:28 AM):** That would really help me out a lot. 
+
+**Agent (09:29 AM):** Awesome! How about I set you up with a payment plan of $40 for the next three months? Then we can re-evaluate after that? 
+
+**Customer (09:30 AM):** Yes, that sounds perfect! 
+
+**Agent (09:31 AM):** Sweet! Just to confirm, you're okay with paying $40 for the next three months, starting this month, right? 
+
+**Customer (09:32 AM):** Yes, that's correct! 
+
+**Agent (09:33 AM):** Great! I'm gonna put this in the system. Just hang tight! 
+
+**Customer (09:34 AM):** Thanks so much! 
+
+**Agent (09:35 AM):** No worries, John! We're here to help. You're all set—I'll send you a confirmation email once I'm done. 
+
+**Customer (09:36 AM):** Appreciate it! 
+
+**Agent (09:37 AM):** Anytime, man! Let me know if you need anything else!

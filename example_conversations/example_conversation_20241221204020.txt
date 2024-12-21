@@ -1,0 +1,43 @@
+**Customer (10:15 AM):** Hi, I hope you can help me. I’m a bit behind on my payment, and I lost my job recently. I’d like to work out a payment plan to catch up, but I need a lower monthly amount.
+
+**Agent (10:17 AM):** Hey there! Sure, I can help you with that. Just to make sure I get everything right, can you tell me what your monthly income is right now?
+
+**Customer (10:18 AM):** I’m currently not working, so my income is $0. I have some savings, but it’s limited.
+
+**Agent (10:20 AM):** Oh man, that’s tough! I’m sorry to hear that. Can I ask how much your monthly expenses are? Like rent and stuff?
+
+**Customer (10:21 AM):** My rent is $800, and I have utilities that come to about $200. Plus, I have groceries and other bills—it’s hard to keep track. 
+
+**Agent (10:23 AM):** Got it! So, $800 for rent and $200 for utilities, which is $1000 total. Can you tell me how much you think you can afford to pay for the phone plan each month?
+
+**Customer (10:25 AM):** Honestly, I can only afford $150 at the moment. I know it’s not much, but I’m in a tough spot.
+
+**Agent (10:27 AM):** $150, huh? Okay, let me do some quick math here. Just need to check some guidelines real quick! 
+
+**Customer (10:29 AM):** No problem, take your time.
+
+**Agent (10:31 AM):** Alright, looks like I have to confirm a few more details. Can I ask how long you’ve been a customer with us?
+
+**Customer (10:32 AM):** I’ve been with you guys for two years.
+
+**Agent (10:34 AM):** Awesome! That’s cool. And just to make sure, is there any way you can tell me how long you might need this lower payment for?
+
+**Customer (10:35 AM):** I think I’ll need it for at least the next three months while I look for a job.
+
+**Agent (10:37 AM):** Okay, three months and $150, I’ll just ask my supervisor if we can do that. I’ll be back in a sec!
+
+**Customer (10:39 AM):** Sure, thanks!
+
+**Agent (10:45 AM):** Hi! I spoke with my supervisor. We can set up the payment arrangement for $150 a month for the next three months. Then we’ll revisit it after that period. Does that sound good to you?
+
+**Customer (10:46 AM):** Yes, that sounds great! Thank you so much for your help.
+
+**Agent (10:48 AM):** Super! I’ll get everything set up for you. Just to confirm, we’ll start this arrangement next month, right?
+
+**Customer (10:49 AM):** Yes, that’s correct. 
+
+**Agent (10:51 AM):** Perfect! You’ll receive a confirmation email shortly. If you need anything else, just hit me up. All the best with the job search!
+
+**Customer (10:53 AM):** Thank you! I appreciate your help today. 
+
+**Agent (10:54 AM):** No problem! Have a good one! 😊

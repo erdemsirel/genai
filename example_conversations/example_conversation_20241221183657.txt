@@ -1,0 +1,27 @@
+**Customer (2023-10-01 09:12):** Hi there, I hope you're doing well. I’m reaching out because I’m a bit behind on my payment and I’d like to discuss setting up a payment arrangement. 
+
+**Agent (2023-10-01 09:13):** Hey! You too! That’s totally fine! I can help you with that! Just need to check some stuff first. What’s your name, and how much do you owe currently?
+
+**Customer (2023-10-01 09:15):** My name is John Smith, and I owe $150 for this month. 
+
+**Agent (2023-10-01 09:16):** Cool, John! Thanks for that info! So, I see you’ve been with us for a while. Sorry to hear about your job! Can you tell me what your current income is and any other expenses you got? 
+
+**Customer (2023-10-01 09:18):** Well, I don’t have any income right now since I lost my job a couple of weeks ago. My only expense is my rent, which is $800. 
+
+**Agent (2023-10-01 09:21):** Oh wow, that’s tough! Thanks for sharing. Just need to make sure everything’s good on our end. Would you be able to make at least $50 a month for your bill? 
+
+**Customer (2023-10-01 09:23):** Honestly, $50 is still a struggle since I don't have any income right now. Is there any way we can maybe do $30 a month until I get back on my feet? 
+
+**Agent (2023-10-01 09:25):** Hmm… Let me think for a second… Alright, how about we do $30 for 3 months? After that, we can reevaluate. Sounds good? 
+
+**Customer (2023-10-01 09:27):** That sounds fair. As long as it helps me not fall further behind, I’m okay with that. 
+
+**Agent (2023-10-01 09:29):** Sweet! So, I’ll set that up now. Just a quick heads up, you’ll need to call in after 3 months to see if you want to keep that or change it. Can I have your approval on that? 
+
+**Customer (2023-10-01 09:31):** Yes, I approve the arrangement for $30 a month for three months. Thank you for working with me on this. 
+
+**Agent (2023-10-01 09:33):** Awesome, John! You’re all set. Just remember, if anything changes, just hit us up. I really hope you get a new job soon! 
+
+**Customer (2023-10-01 09:34):** Thank you so much! I really appreciate your help. Have a great day! 
+
+**Agent (2023-10-01 09:35):** You too, John! 😊 Take care!

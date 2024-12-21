@@ -1,0 +1,37 @@
+**Customer (14:32):** Hi, I need to talk about my mobile bill. I lost my job recently and I'm late on my payment. Can we work something out?
+
+**Agent (14:33):** Hey there! Oh no, that sucks! Totally understand. Let’s see what we can do to help you with your payment. Can you tell me how much you usually pay?
+
+**Customer (14:34):** I usually pay $75 a month, but I really can’t afford that right now. 
+
+**Agent (14:35):** Gotcha. So, you wanna pay less than $75? How much are you thinking?
+
+**Customer (14:37):** I was hoping for something around $50 a month, at least until I get back on my feet.
+
+**Agent (14:39):** Alright, I need to ask you a couple of questions to make sure we can set that up. Could you tell me about your income now? Like, are you getting any unemployment benefits or anything?
+
+**Customer (14:40):** I’m not currently receiving any benefits. Just a bit of savings I'm trying to stretch out until I find a new job.
+
+**Agent (14:42):** Okay, cool, thanks for that. And what about your monthly expenses? Like, rent, food, any other bills? Just wanna see if $50 is doable.
+
+**Customer (14:44):** My rent is $800, and I need about $300 for food and other essentials. So it’s tight right now with no job. 
+
+**Agent (14:46):** Wow, that does sound tough! Let me calculate things real quick. Hold on just a sec! 
+
+**Customer (14:48):** Sure, take your time.
+
+**Agent (14:50):** Okay, I think I can do that. Since you've explained your situation, I can set you up with a $50 monthly payment for the next three months. After that, we’ll need to talk again. Sound good? 
+
+**Customer (14:52):** That sounds good! Thank you so much! 
+
+**Agent (14:54):** No problem! I'm happy to help you out! Just to confirm, is your phone number still the same as before?
+
+**Customer (14:55):** Yes, it’s still 555-123-4567.
+
+**Agent (14:56):** Awesome! I’ll make a note of that. You’re all set with your new payment arrangement starting next month for $50! Just remember, we’ll touch base after three months, alright?
+
+**Customer (14:58):** Yes, I’ll remember. Thanks again for your help!
+
+**Agent (15:00):** Anytime! If you need help with anything else, just hit us up. Good luck with finding a new job! Bye!
+
+**Customer (15:01):** Bye!

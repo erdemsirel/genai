@@ -1,0 +1,41 @@
+**Customer (10:15 AM):** Hi, I see that I'm late on my payment this month. I recently lost my job and I'm hoping we can set up a payment arrangement. Can we talk about lowering my monthly payment?
+
+**Agent (10:16 AM):** Hey there! Sure thing! I can totally help you with that. Can you tell me what your current payment amount is?
+
+**Customer (10:17 AM):** My current monthly payment is $80. I can't afford that right now.
+
+**Agent (10:18 AM):** Gotcha! $80 is a bit much I suppose. So, um, can you tell me how much you can pay monthly now?
+
+**Customer (10:19 AM):** I was thinking maybe $40 a month would be more manageable for me right now.
+
+**Agent (10:20 AM):** Okay! So, I just need to ask you some questions to see if we can do that. Um, what was your income before you lost your job?
+
+**Customer (10:21 AM):** I was making about $3,000 a month before. But now I'm unemployed, so no income.
+
+**Agent (10:22 AM):** Oh man, that sucks. I'm sorry to hear that. Do you have any other income or any kind of help coming in right now? Like, um, unemployment benefits?
+
+**Customer (10:23 AM):** I'm applying for unemployment, but I haven't gotten anything yet. Just trying to manage with savings for now.
+
+**Agent (10:24 AM):** So it’s like savings you got. How much are you spending each month on stuff like rent, food, and bills?
+
+**Customer (10:25 AM):** My rent is $1,200, and I have bills that add up to about another $300. So, around $1,500 a month total.
+
+**Agent (10:26 AM):** Wow, that's a lot without a job. I can see why $80 is too much. Lemme see, so with your savings and all.. Um, I think we could, like, maybe do $40 a month for you for a few months.
+
+**Customer (10:27 AM):** That would really help! How long can I keep that arrangement?
+
+**Agent (10:28 AM):** How about we try it for three months? After that, we can check in to see if your situation improved or if you need to adjust it again. Sound good?
+
+**Customer (10:29 AM):** Sounds good, I appreciate that. What do I need to do to set this up?
+
+**Agent (10:30 AM):** Alrighty! I’ll set it up for $40 a month for the next three months. Can I get your agreement on that?
+
+**Customer (10:31 AM):** Yes, I agree to that arrangement.
+
+**Agent (10:32 AM):** Sweet! You’re all set then! Just make sure to make your payment on time each month, okay? And let us know when you get your job back or if you need any more help!
+
+**Customer (10:33 AM):** Thank you! I will definitely keep you updated.
+
+**Agent (10:34 AM):** No prob! Good luck with everything and hang in there! Have a great day!
+
+**Customer (10:35 AM):** Thanks, you too!

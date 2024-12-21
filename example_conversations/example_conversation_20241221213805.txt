@@ -1,0 +1,39 @@
+**Customer (10:05 AM):** Hey, I'm reaching out because I missed my payment this month. I recently lost my job and I need to set up a payment plan or something. Can we work something out?
+
+**Agent (10:06 AM):** Hi! Thanks for contacting us! I'm sorry you had to go through that. I can help you with this! What's your name and account number so I can look it up?
+
+**Customer (10:07 AM):** Sure, my name is John Smith, and my account number is 987654321.
+
+**Agent (10:08 AM):** Cool, John! Give me a sec to check your account. *[A few moments pass]* Okay, I see your account here! You owe $100 for this month. 
+
+**Customer (10:10 AM):** Yeah, I know. But since I don’t have a job right now, I can’t pay that much. Can we do like $50 a month?
+
+**Agent (10:11 AM):** Hmm, I’m not sure if we can do that. I need to ask some questions first, um…okay! What was your last job? And how much were you making?
+
+**Customer (10:13 AM):** I was working as a barista and making about $2,000 a month. But that was before I got laid off two weeks ago.
+
+**Agent (10:14 AM):** Oh, sorry to hear that! That must be tough. Can you tell me how much money you have coming in right now? Like, do you have any savings or anything?
+
+**Customer (10:16 AM):** I've got a little savings, around $800 left. But I really need to save that for rent and food. I just don’t think I can afford more than $50 right now.
+
+**Agent (10:17 AM):** I get it, man! That does sound really rough. Um, do you have any other expenses we should consider? Like, bills or whatever?
+
+**Customer (10:18 AM):** Well, I have my rent which is $1,200, plus utilities that are about $200. It’s kind of all going to that right now.
+
+**Agent (10:19 AM):** Okay, noted. I guess that makes $1,400 a month. Wow, that’s a lot. Like, um, my manager might be able to help us. Let me see if we can do $50 or if there’s another option. 
+
+**Customer (10:21 AM):** Please, that would be great! I really don’t want this to get worse.
+
+**Agent (10:22 AM):** Alright! Hang tight for a sec! *[Agent places customer on hold]*... Okay, I just talked to my manager. We can work with you! How about we set you up with $50 a month for the next two months? Is that cool? 
+
+**Customer (10:24 AM):** That sounds perfect. Thank you!
+
+**Agent (10:25 AM):** Awesome! I’ll set it up now. Just one more thing, can I have your email to send the confirmation? 
+
+**Customer (10:26 AM):** Sure, it’s john.smith@email.com. 
+
+**Agent (10:27 AM):** Got it! You’ll get the confirmation soon. If you need anything else or have any questions, feel free to ask me! 
+
+**Customer (10:28 AM):** Will do! Thanks for your help!
+
+**Agent (10:29 AM):** No problem! You take care, John! Bye!

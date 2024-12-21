@@ -1,0 +1,35 @@
+**Customer (14:05):** Hi, I’m reaching out because I’m behind on my payment. I recently lost my job and wanted to see if we could work out a payment arrangement.
+
+**Agent (14:06):** Hey there! Thanks for messaging us. I totally get where you're coming from. Let's sort this out. What amount are we talking about?
+
+**Customer (14:07):** I owe $120. I’m really hoping to pay less per month since my financial situation has changed. 
+
+**Agent (14:09):** Sure thing! So, you need a lower monthly payment? How much were you thinking?
+
+**Customer (14:10):** Ideally, I can manage $30 a month. 
+
+**Agent (14:11):** Okay, let me check some stuff! Can you tell me how much money you’re gettin' in a month now, like income? 
+
+**Customer (14:12):** Right now, nothing since I lost my job. I’m trying to save whatever I can until I find new work.
+
+**Agent (14:14):** Gotcha! And what about expenses? Any bills you have to pay regularly?
+
+**Customer (14:15):** Yes, I still have rent to pay, which is $800. Plus, there’s electric and some groceries that total around $200.
+
+**Agent (14:18):** Wow, that’s tight! So, it’s gonna be really hard to make the $30 work with no income. Hmmm… did you get any help from friends or anything?
+
+**Customer (14:19):** Not really. I’ve called a few places, but nothing’s come through yet. I really just need a bit of breathing room.
+
+**Agent (14:21):** Okay, how about we do this? If you pay $40 a month, we can set you up on a payment plan for three months, then we can evaluate from there. Does that sound better? 
+
+**Customer (14:23):** $40 is still a bit tight, but I guess I can try to manage that. 
+
+**Agent (14:24):** Awesome! So just to confirm, we got you down for $40 a month for the next three months, okay?
+
+**Customer (14:25):** Yes, that works for me. 
+
+**Agent (14:26):** Cool! I’ll get that all set up. You should receive an email confirmation shortly. Just remember, if you find a job before the three months, give us a shout! 
+
+**Customer (14:28):** Thank you for your help! I appreciate it.
+
+**Agent (14:29):** No prob! Good luck with your job search. Catch ya later!

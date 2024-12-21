@@ -1,0 +1,35 @@
+**Customer (2023-10-01 10:05):** Hi, I’m reaching out because I’m having trouble paying my bill this month. I lost my job recently and need some help.
+
+**Agent (2023-10-01 10:06):** Hey there! Thanks for calling us. I can totally help with that. Can I get your account number first?
+
+**Customer (2023-10-01 10:06):** Sure, my account number is 123456789.
+
+**Agent (2023-10-01 10:07):** Awesome! Let me pull that up for you… umm, okay, I see your account. So how much do you think you can pay this month?
+
+**Customer (2023-10-01 10:08):** I was hoping to set up a payment arrangement, but I can only afford about $30 this month since I don’t have any income right now.
+
+**Agent (2023-10-01 10:09):** Oh wow, that’s really tight. I gotta check some stuff first. Can I ask what your usual payments are and how much you were earning before?
+
+**Customer (2023-10-01 10:10):** Usually, I pay $80 a month. I was earning around $2,000 before I got laid off.
+
+**Agent (2023-10-01 10:11):** Okay, got it! And do you have any other expenses right now, like rent or bills? Just wanna see if we can work something out.
+
+**Customer (2023-10-01 10:12):** Yes, I pay about $1,000 for rent and I have utility bills around $200. So as you can see, it’s really tight right now.
+
+**Agent (2023-10-01 10:13):** Yikes! That’s a lot. Okay, just to make sure we’re on the same page, you want to pay $30 this month and... umm, continue with like a lower amount in the next months, right?
+
+**Customer (2023-10-01 10:14):** Yes, ideally, I’d like that. Maybe something around $50 if I can start working again by then? 
+
+**Agent (2023-10-01 10:15):** Got it! So $30 this month and $50 in the upcoming months. Let me check with my supervisor to see if that’s cool... One moment!
+
+**Customer (2023-10-01 10:16):** Sure, thanks!
+
+**Agent (2023-10-01 10:20):** Alright! I spoke with my supervisor and we can totally set that arrangement. Just to confirm, you will pay $30 this month and then $50 for the next few months until you’re back on your feet, sound good?
+
+**Customer (2023-10-01 10:21):** Yes, that sounds great! Thank you so much for your help!
+
+**Agent (2023-10-01 10:22):** No problem! I’m glad we could sort this out. Just don’t forget to pay the $30 by next week! Anything else I can help you with?
+
+**Customer (2023-10-01 10:23):** No, that’s all. Thanks again!
+
+**Agent (2023-10-01 10:24):** You’re welcome! Have a great day, and good luck with your job search!

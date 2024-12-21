@@ -1,0 +1,43 @@
+**Customer (09:01 AM):** Hi there, I hope you're doing okay! I got an email saying I'm late on my payment, and I'd like to discuss a payment arrangement. 
+
+**Agent (09:02 AM):** Hey! Yeah, I can totally help you with that. What's up?
+
+**Customer (09:03 AM):** I recently lost my job, so I’m in a tight spot financially. Would it be possible to lower my monthly payment for a bit?
+
+**Agent (09:04 AM):** Oh man, I’m sorry to hear that. Let’s see what we can do. If I could just ask a few questions about your income and expenses?
+
+**Customer (09:05 AM):** Sure, ask away.
+
+**Agent (09:06 AM):** Cool! So, how much do you have coming in each month right now?
+
+**Customer (09:07 AM):** I’m currently unemployed, so I’ve just got my savings, which is around $300 a month.
+
+**Agent (09:08 AM):** Got it. And what do you usually spend on bills and stuff? 
+
+**Customer (09:09 AM):** My regular expenses are around $200, including rent and utilities. 
+
+**Agent (09:10 AM):** Okay, so you’ve got $100 leftover after bills. That's tight. What’s your usual mobile bill?
+
+**Customer (09:11 AM):** My mobile subscription is $80 a month.
+
+**Agent (09:12 AM):** Alright, so with that, you’d be left with just $20? That’s not much at all. 
+
+**Customer (09:13 AM):** Exactly! Is it possible to lower the payment? Maybe to $40 a month? 
+
+**Agent (09:14 AM):** Uh, hmm. That's less than your bill. But let me talk to my supervisor quickly. 
+
+**Customer (09:15 AM):** Okay, that would be great!
+
+**Agent (09:20 AM):** Thanks for holding! So, I talked to my supervisor and we can do $50 a month for a payment arrangement for 3 months. How’s that sound?
+
+**Customer (09:21 AM):** That sounds totally manageable! Thank you so much for your help.
+
+**Agent (09:22 AM):** No prob! I'll set that up for you. Just to confirm, you'll pay $50 per month for the next 3 months and then we can review again?
+
+**Customer (09:23 AM):** Yes, that works.
+
+**Agent (09:24 AM):** Awesome! You’re all set. If you need anything else, just hit me up!
+
+**Customer (09:25 AM):** Will do! Thanks again for your understanding.
+
+**Agent (09:26 AM):** No worries! Good luck out there, and have a great day!

@@ -1,0 +1,35 @@
+**Customer (10:00 AM):** Hi, I’m reaching out because I’m late on my payment. I lost my job recently, and I need to set up a payment arrangement. 
+
+**Agent (10:01 AM):** Hey there! I totally get it. Losing a job is tough. So, uh, how much can you pay each month?
+
+**Customer (10:02 AM):** I was thinking maybe $30 a month? But I’m not sure—I really need a lower amount because I'm not working right now. 
+
+**Agent (10:03 AM):** Okie dokie! Let me just check some stuff. Can I ask what your last job paid you?
+
+**Customer (10:04 AM):** I was making about $1,800 a month before I got laid off.
+
+**Agent (10:05 AM):** Got it, wild. And what are your current expenses? Like rent, utilities and stuff? 
+
+**Customer (10:06 AM):** My rent is $900, utilities are around $150, and I have some other bills that add up to about $400. It doesn’t leave me with much.
+
+**Agent (10:07 AM):** Wow, that is a lot. So, let’s see. If you’re left with like $350 after bills, $30 isn’t much for a payment to us, huh? 
+
+**Customer (10:08 AM):** I know. I really can’t afford more right now. I just need something I can manage until I find another job.
+
+**Agent (10:09 AM):** I understand. So, um, what if we set up a payment plan where you pay $30 for like the next 3 months and then maybe $50 after that? Would that work? 
+
+**Customer (10:10 AM):** Yes, that sounds reasonable. I could manage $30 for now and I’m hopeful that I’ll have a job soon. 
+
+**Agent (10:11 AM):** Awesome! I’ll set that up for you. Just to double-check, I’ll need you to sign something digitally. You cool with that?
+
+**Customer (10:12 AM):** Sure, whatever you need. 
+
+**Agent (10:13 AM):** Great, let me grab that document! Okay, I have it here. I’ll send it to your email, and once you sign, you’re all good with the $30 payments for 3 months!
+
+**Customer (10:14 AM):** Thanks a lot. I appreciate your help on this!
+
+**Agent (10:15 AM):** No problem at all! Just doing my job, ya know? If you need anything else, just hit me up. Good luck with the job hunt!
+
+**Customer (10:16 AM):** Thanks! I’ll keep an eye out for your email. Have a good day!
+
+**Agent (10:17 AM):** You too! Bye!

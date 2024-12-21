@@ -1,0 +1,31 @@
+**Customer (2023-10-08 10:02):** Hi, I’m really struggling to make my payment this month. I lost my job recently and I need to find out if I can set up a lower payment plan.
+
+**Agent (2023-10-08 10:05):** Hey! No worries, I can help you with that. Just need to check a few things first. Can you tell me how much you usually pay and if you have any other income sources right now? 
+
+**Customer (2023-10-08 10:07):** I usually pay $75 a month for my subscription. Right now, I don’t have any income since I lost my job.
+
+**Agent (2023-10-08 10:10):** Got it! So… like, I totally get it, that’s tough. What about your expenses? Do you have rent or bills you need to cover? 
+
+**Customer (2023-10-08 10:12):** Yes, I have rent which is $900, and I also have utility bills around $150. 
+
+**Agent (2023-10-08 10:15):** Oh wow, that’s a lot. So if I’m doing the math right, your total expenses are about $1050 and no income... that's rough. So what kind of payment were you thinking? 
+
+**Customer (2023-10-08 10:18):** I was hoping to reduce my mobile payment to around $30 a month, if that’s possible. 
+
+**Agent (2023-10-08 10:21):** Hmm, okay. Let me pull up your account and see what I can do. Just a sec... *pausing for a moment* Okay, I found it! Looks like you’re long-time customer, so maybe we can make this work? 
+
+**Customer (2023-10-08 10:23):** That would really help me out. I just need some time to get back on my feet.
+
+**Agent (2023-10-08 10:26):** Alright, so here’s the deal. I can arrange to lower your payment to $30 for the next three months, but then we’ll need to review it. Sounds fair? 
+
+**Customer (2023-10-08 10:28):** Yes, that sounds fair to me. 
+
+**Agent (2023-10-08 10:30):** Awesome! I’ll set that up right now. Just to confirm, you're okay with paying $30 starting this month, right?  
+
+**Customer (2023-10-08 10:32):** Yes, that’s correct. Thank you for your help! 
+
+**Agent (2023-10-08 10:35):** No prob! I’ll get this taken care of ASAP. Just give me a minute... okay, it’s all set! Check your account later today to confirm. If you need anything else, just reach out! 
+
+**Customer (2023-10-08 10:37):** I really appreciate your help today. Thank you!
+
+**Agent (2023-10-08 10:40):** You got it! Good luck and hope you get your job back soon! 😊
