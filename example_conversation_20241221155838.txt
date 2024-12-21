@@ -1,0 +1,35 @@
+**Customer (10:00 AM):** Hi, I’m reaching out because I’m late on my payment. I just lost my job and I need to set up an arrangement that I can actually afford.
+
+**Agent (10:02 AM):** Hey there! No worries, I’m here to help you out. Can you tell me how much you owe right now?
+
+**Customer (10:03 AM):** I owe $120 and I just can’t pay that right now. I was thinking maybe $40 a month will work for me?
+
+**Agent (10:05 AM):** $40, huh? Let me check that out for ya. But first, I gotta ask you a few things. What’s your current income?
+
+**Customer (10:06 AM):** Right now, I have no income. Just some savings that I’m using. I was laid off last month.
+
+**Agent (10:08 AM):** Oh man, that sucks. I get it, life can be rough. What about your expenses? Like rent or bills, you know?
+
+**Customer (10:09 AM):** I have rent of $800, utilities about $200, and other bills that total around $300. So, yeah, it’s tight for me right now.
+
+**Agent (10:11 AM):** Gotcha, so that’s, like, $1,300 total with no income. I guess $40 could work then, but I gotta check with my boss and also make sure you’re not already in a payment plan.
+
+**Customer (10:12 AM):** Okay, I appreciate that. Just let me know what you find out.
+
+**Agent (10:14 AM):** Alright, just a sec! *pauses for a moment* Okay, I just talked to my supervisor. We can go with $40 for the next three months, after which we can review your situation again. Does that sound good?
+
+**Customer (10:16 AM):** That sounds really helpful. Thank you! What do I need to do next?
+
+**Agent (10:18 AM):** Sweet! Just need your approval, and then I’ll set it up. And oh, watch out for any notices about when the payments will be taken, alright? 
+
+**Customer (10:19 AM):** Sure, I’ll keep an eye out. You can set it up now; I approve that payment arrangement.
+
+**Agent (10:21 AM):** Cool beans! You’re all set now! Your first payment of $40 will be taken from your account on the 15th of next month. If you need anything else, hit me up!
+
+**Customer (10:22 AM):** Thanks so much for your help! I really appreciate it.
+
+**Agent (10:24 AM):** No problem, happy to help! Good luck, and I hope you find a new job soon! 
+
+**Customer (10:25 AM):** Thanks! Have a great day!
+
+**Agent (10:26 AM):** You too! Bye!
