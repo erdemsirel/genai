@@ -148,15 +148,15 @@ def render_rule_evaluation(
 
 
     if evaluation_result == "successful":
-        st.write(f"### {rule_name}")
+        st.write(f"#### {rule_name}")
         st.write(rule_description)
         st.write(f"✅ Passed: {thoughts}")
     elif rule_description == "not_successful":
-        st.write(f"### {rule_name}")
+        st.write(f"#### {rule_name}")
         st.write(rule_description)
         st.write(f"❌ Failed (Rule Severity: {level}): {thoughts}")
     else:
-        st.write(f"### {rule_name}")
+        st.write(f"#### {rule_name}")
         st.write(rule_description)
         st.write(f"❌ Failed (Rule Severity: {level}): {thoughts}")
     st.write()
