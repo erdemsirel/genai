@@ -136,7 +136,6 @@ with st.sidebar:
     options=[rule["rule_name"] for rule in st.session_state["evaluation_rules"]],
     default=[rule["rule_name"] for rule in st.session_state["evaluation_rules"]],
     )
-    submit = st.button("Evaluate conversation", on_click=lambda: on_click_evaluate_conversation())
 
 
 def render_rule_evaluation(
@@ -282,15 +281,23 @@ col1, col2 = st.columns(2)
 # This is the left column where we render the generated description
 with col1:
         st.subheader("Conversation", divider=True)
-        sub_col1, sub_col2, sub_col3 = st.columns(3)
+        sub_col1, sub_col2, sub_col3, sub_col4  = st.columns(4)
         with sub_col1:
-            submit = st.button("Generate", on_click=lambda: on_click_generate_conversation())
+            submit = st.button("Generate", 
+                               on_click=lambda: on_click_generate_conversation(), 
+                               icon=":material/autorenew:")
         
         with sub_col2:
-            save_button = st.button("Save")
+            save_button = st.button("Save", icon=":material/edit:")
         
         with sub_col3:
-            edit_button = st.button("Edit")
+            edit_button = st.button("Edit", icon=":material/edit:")
+
+        with sub_col4:
+            submit = st.button("Evaluate", 
+                               on_click=lambda: on_click_evaluate_conversation(),
+                               icon=":material/autorenew:"
+                               )
             
         
         if "conversation" not in st.session_state or st.session_state["conversation"] == "" or edit_button:
@@ -298,8 +305,8 @@ with col1:
                                                 value=st.session_state["conversation"],
                                                 height=500, 
                                                 placeholder="""You can copy paste a conversation in the following format.
-    Customer (10:00 AM): ...
-    Agent (10:02 AM): ..."""
+    **Customer (10:00 AM):** ...
+    **Agent (10:02 AM):** ..."""
                         )
             st.session_state["conversation"] = conversation_input
 
