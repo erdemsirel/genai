@@ -20,13 +20,14 @@ def load_rules(path="evaluation_rules/evaluation_rules_en.yaml"):
 
 col1, col2 = st.columns(2, )
 with col1:
-    st.page_link('app.py', label='Back', )
+    st.page_link('app.py', label='Back', icon=":material/arrow_back:")
+    load_default = st.button('Import from CSV', icon=":material/upload_file:")
 with col2:
     evaluation_rule_files = [file.name for file in Path("evaluation_rules/").iterdir() if file.name.endswith(".yaml")]
     selected_rules_to_load = st.selectbox(label="Select the rule set to load", 
                                 options=evaluation_rule_files, 
                                 index=evaluation_rule_files.index(st.session_state["rule_file_name"]))
-    load_default = st.button('Load Rules')
+    load_default = st.button('Load', icon=":material/download:")
 
 if load_default:
     load_rules(path=Path("evaluation_rules/") / Path(selected_rules_to_load))
@@ -43,7 +44,11 @@ edited_rules = st.data_editor(data=pd.DataFrame(st.session_state["evaluation_rul
 
 
 file_name = st.text_input(label="File Name", value="evaluation_rules_session.yaml")
-save = st.button('Save')
+col1, col2 = st.columns(2)
+with col1:
+    save = st.button('Save', icon=":material/check:")
+with col2:
+    download = st.button('Download as CSV', icon=":material/file_export:")
 
 
 if save:

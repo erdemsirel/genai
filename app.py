@@ -102,10 +102,10 @@ def on_click_evaluate_conversation():
 # Start Streamlit UI #
 ######################
 
-title = "Customer Service Quality Evaluator"
+title = "Customer Service Quality Assessment"
 st.set_page_config(
     page_title=title,
-    page_icon="👋",
+    # page_icon="👋",
     layout="wide",
 
 )
@@ -126,7 +126,7 @@ with st.sidebar:
                                 options=evaluation_rule_files, 
                                 index=evaluation_rule_files.index(st.session_state["rule_file_name"]),
                                 )
-    load_rules_button = st.button('Load Rules')
+    load_rules_button = st.button('Load Rules', icon=":material/refresh:")
     if load_rules_button:
         load_rules(selected_rules_to_load)
     
@@ -288,15 +288,16 @@ with col1:
                                icon=":material/autorenew:")
         
         with sub_col2:
-            save_button = st.button("Save", icon=":material/edit:")
+            edit_button = st.button("Edit", icon=":material/edit:")
         
         with sub_col3:
-            edit_button = st.button("Edit", icon=":material/edit:")
+            save_button = st.button("Save", icon=":material/check:")
+
 
         with sub_col4:
             submit = st.button("Evaluate", 
                                on_click=lambda: on_click_evaluate_conversation(),
-                               icon=":material/autorenew:"
+                               icon=":material/play_arrow:"
                                )
             
         
@@ -325,6 +326,20 @@ with col1:
 # This is the right column where we render the extracted features
 with col2:
     st.subheader("Conversation Quality Assessment", divider=True)
+
+    sub_col1, sub_col2, sub_col3  = st.columns(3)
+    with sub_col1:
+        edit_button = st.button("Edit ", icon=":material/edit:")
+        
+    with sub_col2:
+        save_button = st.button("Save ", icon=":material/check:")
+
+    with sub_col3:
+        submit = st.button("Generate PDF ", 
+                            on_click=lambda: on_click_evaluate_conversation(),
+                            icon=":material/picture_as_pdf:"
+                            )
+
     st.subheader("Improvement Recommendation")
     
     if "evaluation_results" in st.session_state:
