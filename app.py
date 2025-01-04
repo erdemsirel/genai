@@ -117,6 +117,7 @@ with st.sidebar:
     
     st.page_link('app.py', label='Conversation Evaluator')
     st.page_link('pages/1_Quality_Rule_Settings.py', label='Quality Rule Settings')
+    st.page_link('pages/2_Agent_Evaluator.py', label='Agent Evaluator')
     st.title("Settings")
     # Pressing this button will trigger the on_click_generate function defined above
     # This will generate a description and extract the features
@@ -214,6 +215,48 @@ def question_about_conversation(question:str, conversation:str):
 
     return response.choices[0].message.content
 
+def get_overall_conversation_score_and_tips(conversation:str, evaluation_results: list[dict]):
+
+    class OverallConversationDataFormat(pydantic.BaseModel):
+        tips: str = pydantic.Field(
+            description=f"Tips for improvements for the customer service agent based on the conversation and quality assesment results provided."
+        )
+        overall_score: int  = pydantic.Field(
+            description=f"Averall score between 0 and 100 for the customer service agent based on the conversation and quality assesment results provided."
+        )
+        topic: str = pydantic.Field(
+            description=f"What was the request of the customer? Plese provide a one or two word topic based on the conversation."
+        )
+
+    system_prompt = f"""You will be given a conversation between a customer and a customer service agent, and quality assesment results about the conversation below.
+        How can this agent improve? Please write some tips for the agent based on the conversation and quality assesment results provided.
+        Please also provide an overall score for the agent between 0 and 100 based on the quality of the conversation and quality assesment results provided and their level.
+        Finally, provide a topic regarding the customers request.
+        Please keep it short and concise. You response must be valid list of JSON parsable by Pydantic using the following schema for each rule:
+        {OverallConversationDataFormat.model_json_schema()}
+
+        Conversation: {conversation}
+
+        Quality Assessment Results: {evaluation_results}
+        """
+        
+    messages = [
+        {'role': 'system', 'content': system_prompt},
+    ]
+    response = CLIENT.chat.completions.create(
+    model=os.environ["GPT_4_MODEL_NAME"],
+    messages=messages,
+    response_format={"type": "json_object"},
+    temperature=0.0,
+
+)
+    message = response.choices[0].message.content
+    overall_conversation_score_and_tips = OverallConversationDataFormat.model_validate_json(message, strict=False)
+    overall_conversation_score = overall_conversation_score_and_tips.overall_score
+    tips = overall_conversation_score_and_tips.tips
+    topic = overall_conversation_score_and_tips.topic
+    return overall_conversation_score, tips, topic
+
 
 def evaluate_conversation(conversation:str, rules:dict):
     """
@@ -271,7 +314,7 @@ Conversation:
     #     message = response.choices[0].message.content
     #     evaluation_results = EvaluationDataFormat.model_validate_json(message, strict=False)
     
-    return evaluation_results
+    return evaluation_results.dict()["evaluation_results"]
 
 
 # Here we create two columns to render the description and the extracted features side by side
@@ -325,7 +368,7 @@ with col1:
 
 # This is the right column where we render the extracted features
 with col2:
-    st.subheader("Conversation Quality Assessment", divider=True)
+    st.subheader("Quality Assessment", divider=True)
 
     sub_col1, sub_col2, sub_col3  = st.columns(3)
     with sub_col1:
@@ -339,34 +382,24 @@ with col2:
                             on_click=lambda: on_click_evaluate_conversation(),
                             icon=":material/picture_as_pdf:"
                             )
-
-    st.subheader("Improvement Recommendation")
-    
-    if "evaluation_results" in st.session_state:
-        system_prompt = f"""You will be given a conversation between a customer and a customer service agent, and quality assesment results about the conversation below.
-            How can this agent improve? Please write some tips for the agent based on the conversation and quality assesment results provided.
-            Please keep it short and concise.
-
-            Conversation: {st.session_state["conversation"]}
-
-            Quality Assessment Results: {st.session_state["evaluation_results"].dict()["evaluation_results"]}
-            """
-        messages = [
-            {'role': 'system', 'content': system_prompt},
-        ]
-        response = CLIENT.chat.completions.create(
-        model=os.environ["GPT_4_MODEL_NAME"],
-        messages=messages,
-        temperature=0.0,
-    )
-        assistant_message = response.choices[0].message.content
-        st.write(assistant_message)
+    if "evaluation_results" in st.session_state:    
+        overall_conversation_score, tips, topic = get_overall_conversation_score_and_tips(conversation=st.session_state["conversation"], 
+                                                                                        evaluation_results=st.session_state["evaluation_results"])
+        
+        number_of_failed_rules = len([item for item in st.session_state["evaluation_results"] if item["evaluation_result"] != "successful"])
+        a, b, c = st.columns(3)
+        a.markdown(f"💬 Topic")
+        a.markdown(f"**{topic}**")
+        b.metric("🏆 Overall Score", f"{overall_conversation_score}%", border=False)
+        c.metric("❌ Failed Rules", f"{number_of_failed_rules}", border=False)
+        st.subheader("Improvement Recommendation")
+        st.write(tips)
     else:
         st.write("No feedback yet")
     
     st.subheader("Assessment Results")
     if "evaluation_results" in st.session_state:
-        evaluation_results = st.session_state["evaluation_results"].dict()["evaluation_results"]
+        evaluation_results = st.session_state["evaluation_results"]
         if evaluation_results is None:
             st.write("Features could not be extracted.")
         else:
@@ -414,7 +447,7 @@ if prompt:
 
         Conversation: {st.session_state["conversation"]}
 
-        Quality Assessment Results: {st.session_state["evaluation_results"].dict()["evaluation_results"]}
+        Quality Assessment Results: {st.session_state["evaluation_results"]}
         """
         messages = [
 
