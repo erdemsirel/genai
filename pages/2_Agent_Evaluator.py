@@ -55,7 +55,7 @@ with st.sidebar:
         index=evaluation_rule_files.index(st.session_state["rule_file_name"]),
         key="agent_evaluator_rules_select_box"
     )
-    load_rules_button = st.button("Load Rules", icon=":material/refresh:")
+    load_rules_button = st.button("Load Rules", icon=":material/refresh:", key="agent_evaluator_load_rules_button")
     if load_rules_button:
         load_rules(selected_rules_to_load)
 
@@ -63,6 +63,7 @@ with st.sidebar:
         "Select the rules that you want to evaluate",
         options=[rule["rule_name"] for rule in st.session_state["evaluation_rules"]],
         default=[rule["rule_name"] for rule in st.session_state["evaluation_rules"]],
+        key="agent_evaluator_select_rules_multiselect"
     )
 
 
