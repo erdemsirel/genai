@@ -113,13 +113,27 @@ if is_loaded():
         progress += 100//len(st.session_state["agent_chat_files"])
         progress_bar.progress(progress, text=f"Evaluating the conversations... Please wait. ")
         evaluation_complete = True
-
-    st.dataframe(pd.DataFrame(st.session_state["agent_chats"]), hide_index=True)
+    with st.expander(
+    "Chat Details",
+    expanded=not evaluation_complete, icon=":material/table:",):
+        st.dataframe(pd.DataFrame(st.session_state["agent_chats"]), hide_index=True)
 else:
     st.write("No chat files to evaluate yet.")
 
 if evaluation_complete:
     st.subheader("Evaluation Results", divider=True)
+    sub_col1, sub_col2, sub_col3  = st.columns(3)
+    with sub_col1:
+        edit_button = st.button("Edit ", icon=":material/edit:")
+        
+    with sub_col2:
+        save_button = st.button("Save ", icon=":material/check:")
+
+    with sub_col3:
+        submit = st.button("Generate PDF ",
+                            icon=":material/picture_as_pdf:"
+                            )
+
     average_conversation_score = pd.DataFrame(st.session_state["agent_chats"])["overall_conversation_score"].mean().round(0).astype(int)
     evaluation_results = pd.DataFrame(st.session_state["agent_chats"])["evaluation_results"].values
     failed_rules = []
