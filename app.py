@@ -145,6 +145,7 @@ def render_rule_evaluation(
     level: list[str] | None, 
     evaluation_result: str| None, 
     thoughts: str| None, 
+    count: int | None = None,
 ):
 
 
@@ -155,11 +156,17 @@ def render_rule_evaluation(
     elif rule_description == "not_successful":
         st.write(f"#### {rule_name}")
         st.write(rule_description)
-        st.write(f"❌ Failed (Rule Severity: {level}): {thoughts}")
+        if count:
+            st.write(f"❌ Failed {count} time(s) (Rule Severity: {level}): {thoughts}")
+        else:
+            st.write(f"❌ Failed (Rule Severity: {level}): {thoughts}")
     else:
         st.write(f"#### {rule_name}")
         st.write(rule_description)
-        st.write(f"❌ Failed (Rule Severity: {level}): {thoughts}")
+        if count:
+            st.write(f"❌ Failed {count} time(s) (Rule Severity: {level}): {thoughts}")
+        else:
+            st.write(f"❌ Failed (Rule Severity: {level}): {thoughts}")
     st.write()
 
 
@@ -229,7 +236,7 @@ def get_overall_conversation_score_and_tips(conversation:str, evaluation_results
         )
 
     system_prompt = f"""You will be given a conversation between a customer and a customer service agent, and quality assesment results about the conversation below.
-        How can this agent improve? Please write some tips for the agent based on the conversation and quality assesment results provided.
+        How can this agent improve? Please write some tips for the agent based on the conversation and quality assesment results provided. Do not use bullets or numbers for the tips.
         Please also provide an overall score for the agent between 0 and 100 based on the quality of the conversation and quality assesment results provided and their level.
         Finally, provide a topic regarding the customers request.
         Please keep it short and concise. You response must be valid list of JSON parsable by Pydantic using the following schema for each rule:
