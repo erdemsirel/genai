@@ -277,8 +277,9 @@ def evaluate_conversation(conversation:str, rules:dict):
     :return: A text description of the house
     """
     print("DataFormat", EvaluationDataFormatList.model_json_schema())
-    system_prompt = f"""You will be given a conversation between a customer and a customer service agent and a set of quality rules. Please evaluate the conversation based on the given rules.
-    You response must be valid list of JSON parsable by Pydantic using the following schema for each rule:
+    system_prompt = f"""You will be given a conversation between a customer and a customer service agent in {st.session_state["language_option"]} and a set of quality rules. Please evaluate the conversation based on the given rules.
+    Please write your response in {st.session_state["language_option"]}.
+    Your response must be valid list of JSON parsable by Pydantic using the following schema for each rule:
     {EvaluationDataFormatList.model_json_schema()}
     """
     # YOUR CODE HERE END
