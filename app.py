@@ -119,6 +119,10 @@ with st.sidebar:
     st.page_link('pages/1_Quality_Rule_Settings.py', label='Quality Rule Settings')
     st.page_link('pages/2_Agent_Evaluator.py', label='Agent Evaluator')
     st.title("Settings")
+    st.session_state["language_option"] = st.selectbox(
+        "Language",
+        ("English", "Dutch"),
+    )
     # Pressing this button will trigger the on_click_generate function defined above
     # This will generate a description and extract the features
 
