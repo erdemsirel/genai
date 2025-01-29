@@ -1,0 +1,35 @@
+- rule_name: Duidelijkheid van Communicatie
+  rule_description: De agent geeft duidelijke en beknopte antwoorden, vermijdt jargon 
+    en ambiguïteit.
+  level: Hoog
+- rule_name: Empathie en Beleefdheid
+  rule_description: De agent toont begrip voor de emoties van de klant 
+    en reageert op een beleefde en professionele manier.
+  level: Hoog
+- rule_name: Reactietijd
+  rule_description: De agent reageert snel op de klant, waardoor vertragingen 
+    tijdens het gesprek worden geminimaliseerd.
+  level: Middel
+- rule_name: Probleemoplossing
+  rule_description: De agent behandelt en lost het probleem van de klant effectief op 
+    of biedt duidelijke vervolgstappen.
+  level: Hoog
+- rule_name: Proactieve Ondersteuning
+  rule_description: De agent anticipeert op de behoeften van de klant en biedt extra 
+    ondersteuning of oplossingen zonder dat hierom wordt gevraagd.
+  level: Middel
+- rule_name: Nauwkeurigheid van Kennis
+  rule_description: De agent verstrekt nauwkeurige en relevante informatie 
+    als antwoord op de vragen van de klant.
+  level: Hoog
+- rule_name: Professionele Toon
+  rule_description: De agent behoudt een respectvolle, positieve en professionele toon 
+    gedurende de interactie.
+  level: Hoog
+- rule_name: Betrokkenheid
+  rule_description: De agent gaat actief in gesprek met de klant door hun zorgen te erkennen 
+    en hun tevredenheid te bevestigen.
+  level: Middel
+- rule_name: Grammatica en Spelling
+  rule_description: De berichten van de agent bevatten geen grammaticale fouten.
+  level: Middel
