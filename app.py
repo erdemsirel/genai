@@ -45,12 +45,13 @@ def generate_example_chat_conversation(new_conversation=False) -> str:
     """
     messages = [
         {"role": "system", 
-        "content": """
+        "content": f"""
 Please create an example of chat conversation between an mobile subscription company's customer service agents and a customer who is late on his payment. 
 Customer wants to agree on a payment arrangement but wants a lower monthly payment because he had lost his job recently. 
 Agent need to varify few things regarding the customer income and expenses but eventually they agree on a payment arrangement.
 The agent is a new joiner so sometimes he makes mistakes and does not use a professional tone.
 You can give example names and amount while creating the conversation. Please also add a timestamps for each message.
+Please generate the conversation in {st.session_state["language_option"]}.
 Write customer messages after **Customer (timestamp):** and agent messages after **Agent (timestamp):**.
 """},
         # {"role": "user", "content": json.dumps(data)},
