@@ -1,4 +1,38 @@
-- level: High
-  rule_description: The agent provides clear and concise responses, avoiding jargon
-    and ambiguity.
-  rule_name: Clarity of Communication
+- level: Hoog
+  rule_description: "De agent geeft duidelijke en beknopte antwoorden, vermijdt jargon\
+    \ en ambigu\xEFteit."
+  rule_name: Duidelijkheid van Communicatie
+- level: Hoog
+  rule_description: De agent toont begrip voor de emoties van de klant en reageert
+    op een beleefde en professionele manier.
+  rule_name: Empathie en Beleefdheid
+- level: Middel
+  rule_description: De agent reageert snel op de klant, waardoor vertragingen tijdens
+    het gesprek worden geminimaliseerd.
+  rule_name: Reactietijd
+- level: Hoog
+  rule_description: De agent behandelt en lost het probleem van de klant effectief
+    op of biedt duidelijke vervolgstappen.
+  rule_name: Probleemoplossing
+- level: Middel
+  rule_description: De agent anticipeert op de behoeften van de klant en biedt extra
+    ondersteuning of oplossingen zonder dat hierom wordt gevraagd.
+  rule_name: Proactieve Ondersteuning
+- level: Hoog
+  rule_description: De agent verstrekt nauwkeurige en relevante informatie als antwoord
+    op de vragen van de klant.
+  rule_name: Nauwkeurigheid van Kennis
+- level: Hoog
+  rule_description: De agent behoudt een respectvolle, positieve en professionele
+    toon gedurende de interactie.
+  rule_name: Professionele Toon
+- level: Middel
+  rule_description: De agent gaat actief in gesprek met de klant door hun zorgen te
+    erkennen en hun tevredenheid te bevestigen.
+  rule_name: Betrokkenheid
+- level: Middel
+  rule_description: De berichten van de agent bevatten geen grammaticale fouten.
+  rule_name: Grammatica en Spelling
+- level: null
+  rule_description: test
+  rule_name: test

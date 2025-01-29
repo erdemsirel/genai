@@ -25,6 +25,9 @@ def load_rules(file_name):
 if "rule_file_name" not in st.session_state or st.session_state["rule_file_name"] is None:
     st.session_state["rule_file_name"] = "evaluation_rules_en.yaml"
 
+if "language_option" not in st.session_state or st.session_state["language_option"] is None:
+    st.session_state["language_option"] = "English"
+
 if "evaluation_rules" not in st.session_state or st.session_state["evaluation_rules"] is None:
     load_rules(st.session_state["rule_file_name"])
 
